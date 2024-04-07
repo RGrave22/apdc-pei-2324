@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Change role</title>
+    <meta charset='utf-8'>      
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' href='changeRole.css'>  
+</head>
+<body>
+    
+    
+    <div class="Container">
+        <h1>Change role</h1>
+        <hr class = "rounded">
+        <label for="username">User to change the role:</label>
+        <input class="info" id="username" type="text" placeholder="Username" name="username" required>
+
+        <label for="role">New role:</label>
+        <select class = "info" id="role">    
+            <option value="">None</option>
+            <option value="SU">SU</option>
+            <option value="GA">GA</option>
+            <option value="GBO">GBO</option>
+            <option value="USER">USER</option>
+        </select>           
+
+        <button type="submit" onclick="changeRole()">Change role</button>
+        
+
+        <script src='functions.js'></script>
+    </div>
+
+</body>     
+</html>         

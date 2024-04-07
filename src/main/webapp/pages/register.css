@@ -1,0 +1,110 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;      
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-image: url(../img/background.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+  	background-attachment: fixed;
+}
+
+h1 {
+    font-size: 36px;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 25px
+}
+
+.Container {
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;    
+    width: 500px;
+    height: 1510px;
+    background: rgba(255,255,255,0.9);
+    border: 2px solid lightgrey;
+    border-radius: 5px;
+    box-shadow: 0 0 10px lightgrey;
+}
+
+label,input,button {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+
+label {
+    font-size: 20px;
+}
+
+.info {
+    padding: 10px;
+    margin-block: 10px;
+    padding-right: 275px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.2);
+}
+
+button {
+    padding: 12px;
+    margin-top: 30px;
+    width: 96%;
+    align-items: center;
+    border: none;
+    border-radius: 5px;
+    font-size: 24px;
+    color: white;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    background-color: rgba(0, 150, 255, 0.8);
+}
+
+button:focus {
+    outline: blue auto 5px; 
+    cursor: pointer;
+}
+
+button:hover {
+    outline: blue auto 5px; 
+    opacity: 0.9;
+    cursor: pointer;
+}   
+
+.newAcc {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 15px;
+}
+
+#profileOpt {
+   margin-left: 10px;
+   padding-right: 15px;
+}
+
+#foto { 
+    padding-right: 75px;
+}
+
+.rounded {
+    border-top: 2px solid rgba(0,0,0,0.4);
+    border-radius: 5px;
+    width: 85%;
+    margin-bottom: 25px;
+}
+
+p {
+    margin-left: 10px;
+    padding-right: 15px;
+}
+
+
+
+
+
+
+
+   
+

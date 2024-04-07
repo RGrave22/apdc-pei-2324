@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Change state</title>
+    <meta charset='utf-8'>      
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' href='changeState.css'>  
+</head>
+<body>
+    
+    
+    <div class="Container">
+        <h1>Change state</h1>
+        <hr class = "rounded">
+        <label for="username">User to change the state:</label>
+        <input class="info" id="username" type="text" placeholder="Username" name="username" required>
+
+        <label for="state">New state:</label>
+        <select class = "info" id="state">    
+            <option value="">None</option>
+            <option value="ATIVO">Ativo</option>
+            <option value="INATIVO">Inativo</option>
+        </select>           
+
+        <button type="submit" onclick="changeState()">Change state</button>
+        
+
+        <script src='functions.js'></script>
+    </div>
+
+</body>     
+</html>         

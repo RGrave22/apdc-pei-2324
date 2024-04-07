@@ -1,0 +1,38 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Welcome</title>
+    <meta charset='utf-8'>      
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' href='welcome.css'>  
+    <script src='functions.js'></script>
+</head>
+<body>
+    
+    <div class="Container">                             
+
+
+        <h1 id = "welcome">Welcome,</h1>
+        <hr class = "rounded">
+        <h2>Your role:</h2>
+
+        <div id="role"></div>
+
+        <a href="/pages/list.html">List users</a>
+        <a href="/pages/changeRole.html">Change role</a>
+        <a href="/pages/changeState.html">Change state</a>
+        <a href="/pages/changePassword.html">Change password</a>
+        <a href="/pages/changeAttributes.html">Change attributes</a>
+        <a href="/pages/deleteUser.html">Delete</a>
+        <a href="/pages/logout.html">Logout</a>
+
+        <script>
+            window.onload = function(){
+                welcome();
+            };
+        </script>
+    </div>
+
+</body>     
+</html>             

@@ -1,0 +1,6 @@
+indexes:
+
+- kind: UserLoginTime
+  ancestor: yes
+  properties:
+  - name: login_time

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Register</title>
+    <meta charset='utf-8'>      
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' href='register.css'>
+    <script src='functions.js'></script>
+</head>
+<body>
+    
+    <div class="Container">
+        <h1>Welcome</h1>
+        <hr class = "rounded">
+        <label for="username">Username:*</label>
+        <input class="info" id="username" type="text" placeholder="Username" name="username" required>
+
+        <label for="email">Email:*</label>
+        <input class="info" id="email" type="text" placeholder="Email" name="email" required>
+
+        <label for="name">Name:*</label>
+        <input class="info" id="name" type="name" placeholder="Name" name="name" required>
+
+        <label for="password">Password:*</label>
+        <input class="info" id="password" type="password" placeholder="Password" name="password" required>
+        
+        <label for="Confpassword">Confirmation password:*</label>
+        <input class="info" id="confpassword" type="password" placeholder="Confirmation password" name="Confpassword" required>
+        
+        <label for="phone">Phone number:*</label>
+        <input class="info" id="phone" type="text" placeholder="Phone number" pattern="[0-9]{9}" name="phone" required>
+        
+        <label for="profile">Profile type:</label>
+        <select class = "info" id="profileOpt">    
+            <option value="">None</option>
+            <option value="Publico">Public</option>
+            <option value="Privado">Private</option>
+        </select>
+
+        <label for="ocupation">Ocupation:</label>
+        <input class="info" id="ocupation" type="text" placeholder="Ocupation" name="ocupation" required>
+
+        <label for="workplace">Work place:</label>
+        <input class="info" id="workplace" type="text" placeholder="Work place" name="workplace" required>
+
+        <label for="household">House Hole:</label>
+        <input class="info" id="household" type="text" placeholder="House Hold" name="household" required>
+
+        <label for="postalcode">Postal Code:</label>
+        <input class="info" id="postalcode" type="text" placeholder="Postal Code" pattern="[0-9]{4}-[0-9]{3}" name="postalcode" required>
+
+        <label for="NIF">NIF:</label>
+        <input class="info" id="nif" type="text" placeholder="NIF" pattern="[0-9]{8}" name="nif" required>
+
+        <label for="foto">Foto:</label>
+        <p class="noteInformation">The foto needs to be less than 1400bytes</p>
+        <input class="info" id="foto" type="file" placeholder="Foto" name="foto" required>
+
+        <button type="submit" onclick="register()">Register</button>
+
+        <p class = "newAcc">Already have an account? <a href="/pages/login.html">Login</a></p>
+
+
+        <script src='functions.js'></script>
+    </div>
+
+
+    
+</body> 
+</html>
